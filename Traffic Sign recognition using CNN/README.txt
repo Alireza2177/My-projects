@@ -59,31 +59,6 @@ for folder in range(43):
 x = np.array(x)
 y = np.array(y)
 
-Model Architecture:
-The CNN model architecture used in this project is designed to effectively recognize traffic signs from images. The detailed architecture and layer shapes are as follows:
-
-class TrafficSignNet(nn.Module):
-    def __init__(self):
-        super(TrafficSignNet, self).__init__()
-        self.conv1 = nn.Conv2d(3, 32, kernel_size=3)
-        self.conv2 = nn.Conv2d(32, 64, kernel_size=3)
-        self.conv3 = nn.Conv2d(64, 128, kernel_size=3)
-        self.fc1 = nn.Linear(128 * 6 * 6, 512)
-        self.fc2 = nn.Linear(512, 128)
-        self.fc3 = nn.Linear(128, 43)
-        self.dropout = nn.Dropout(0.5)
-    
-    def forward(self, x):
-        x = F.relu(F.max_pool2d(self.conv1(x), 2))
-        x = F.relu(F.max_pool2d(self.conv2(x), 2))
-        x = F.relu(F.max_pool2d(self.conv3(x), 2))
-        x = x.view(-1, 128 * 6 * 6)
-        x = F.relu(self.fc1(x))
-        x = self.dropout(x)
-        x = F.relu(self.fc2(x))
-        x = self.fc3(x)
-        return x
-
 Training and Evaluation:
 Training and evaluating the model involves defining the loss function, optimizer, and running the training loop. The notebook includes detailed steps and code to perform these tasks.
 
