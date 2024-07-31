@@ -31,14 +31,14 @@ While this repository hosts a variety of projects, each contributing to my growt
 
 ## Future Directions
 
-As I continue to delve deeper into these fields, I aim to tackle more challenging problems and contribute to cutting-edge research. My future projects will focus on:
+As I delve deeper into these fields, I aim to tackle more challenging problems and contribute to cutting-edge research. My future projects will focus on:
 - Enhancing model interpretability and explainability in deep learning
 - Developing robust computer vision systems for real-world applications
 - Bridging the gap between artificial intelligence and neuroscience through interdisciplinary research
 
 ## Get in Touch
 
-I am always eager to connect with like-minded individuals, collaborate on exciting projects, and discuss the latest advancements in AI and neuroscience. Feel free to reach out to me through GitHub or LinkedIn.
+I am always eager to connect with like-minded individuals, collaborate on exciting projects, and discuss the latest advancements in AI and neuroscience. Feel free to reach out to me through GitHub or send me an Email :) (Alireza.emad99@gmail.com)
 
 Let's build the future of AI together!
 
