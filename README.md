@@ -1,6 +1,6 @@
 # My Projects
 
-Welcome to my project repository! This is a collection of my work in the exciting fields of computer vision, deep learning, and computational neuroscience. Each project here represents a step in my journey of learning and exploration, showcasing my dedication to pushing the boundaries of technology and understanding.
+Welcome to my project repository! This is a collection of my work in the exciting fields of computer vision, deep learning, and computational neuroscience. Each project here represents a step in my journey of learning and exploration, I have faced many challenges through the process of making these projects and those challenges allowed me to search, learn, and dive deeper.
 
 ## About Me
 
