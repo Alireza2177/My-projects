@@ -50,7 +50,8 @@ python cluster_and_visualize.py --input keywords.txt --clusters 5
 
 The resulting plot includes clusters of keywords, each point bordered to separate it from neighboring points:
 
-![Example Visualization](example_plot.png)
+![Example Visualization](![image](https://github.com/user-attachments/assets/c795e946-1673-45ff-b9c1-decef19c5170)
+)
 
 ## **Contributing**
 
