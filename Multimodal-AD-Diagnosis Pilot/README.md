@@ -47,5 +47,6 @@ The pipeline demonstrates advanced neuroimaging data processing, feature enginee
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/Multimodal-AD-Classification.git
+git clone https://github.com/Alireza2177/Multimodal-AD-Classification.git
+
 cd Multimodal-AD-Classification
