@@ -1,0 +1,19 @@
+docker run --rm -it ^
+-v "H:\Master's Thesis\bids_corrected:/data:ro" ^
+-v "H:\Master's Thesis\bids_corrected\derivatives\fmriprep:/out" ^
+-v "H:\Master's Thesis\bids_corrected\work:/work" ^
+-v "H:\Master's Thesis\license.txt:/opt/freesurfer/license.txt" ^
+-v "H:\Master's Thesis\bids_corrected\derivatives\freesurfer:/fsdir" ^
+nipreps/fmriprep:24.1.1 ^
+/data /out participant ^
+--participant-label 070S4692 ^
+--output-spaces MNI152NLin2009cAsym:res-2 fsnative ^
+--fs-license-file /opt/freesurfer/license.txt ^
+--fs-subjects-dir /fsdir ^
+--nthreads 12 ^
+--mem_mb 26000 ^
+--omp-nthreads 4 ^
+-w /work ^
+--use-syn-sdc ^
+--resource-monitor ^
+--skip-bids-validation
